@@ -1,0 +1,86 @@
+[
+    {
+        "step": "Project Understanding",
+        "agent": "Guide",
+        "requires": [
+            "User"
+        ],
+        "produces": [
+            "Understanding"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 1
+    },
+    {
+        "step": "Project Scope",
+        "agent": "Planner",
+        "requires": [
+            "Project Understanding"
+        ],
+        "produces": [
+            "Scope"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 1
+    },
+    {
+        "step": "System Architecture",
+        "agent": "Architect",
+        "requires": [
+            "Project Scope"
+        ],
+        "produces": [
+            "Architecture"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 1
+    },
+    {
+        "step": "Folder Structure",
+        "agent": "Structurer",
+        "requires": [
+            "System Architecture"
+        ],
+        "produces": [
+            "Structure"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 1
+    },
+    {
+        "step": "Code Generation",
+        "agent": "Builder",
+        "requires": [
+            "Folder Structure"
+        ],
+        "produces": [
+            "Code"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 3
+    },
+    {
+        "step": "Project Validation",
+        "agent": "Tester",
+        "requires": [
+            "Code Generation"
+        ],
+        "produces": [
+            "Validation"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 1
+    },
+    {
+        "step": "Delivery",
+        "agent": "Shipper",
+        "requires": [
+            "Project Validation"
+        ],
+        "produces": [
+            "Ready"
+        ],
+        "validator": "validate_simplicity",
+        "max_retries": 0
+    }
+]
