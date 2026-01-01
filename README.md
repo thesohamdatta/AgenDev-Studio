@@ -3,6 +3,10 @@
 ![Status](https://img.shields.io/badge/Status-User%20Centric-success.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 
+![AutoDev Studio Demo](docs/assets/demo_screenshot.png)
+
+> **Visual Demo:** [Watch the full interaction](docs/assets/demo_animation.webp)
+
 **AutoDev Studio** is a clean, simple, and structured AI engineering assistant. It moves away from chaotic chatbots and provides a clear, step-by-step workflow to turn your ideas into working code.
 
 ---
