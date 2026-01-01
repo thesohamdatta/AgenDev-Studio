@@ -3,7 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-User%20Centric-success.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 
-![AutoDev Studio Demo](docs/assets/demo_screenshot.png)
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/ab69cba7-d0dd-42a2-a65b-fa64903195c5" />
+
 
 > **Visual Demo:** [Watch the full interaction](docs/assets/demo_animation.webp)
 
